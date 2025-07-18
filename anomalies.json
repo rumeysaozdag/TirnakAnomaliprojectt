@@ -1,0 +1,86 @@
+[
+  {
+    "ID": "anomaly1",
+    "Name": "Sağlıklı Tırnak",
+    "Description": "Pürüzsüz, lekesiz, pembe görünümlü ve dayanıklı bir yapıya sahiptir.",
+    "Image": "",
+    "Link": "https://turkderm.org.tr/menu/50/tirnak-ve-tirnak-hastaliklari#:~:text=Sa%C4%9Fl%C4%B1kl%C4%B1%20bir%20t%C4%B1rnak%3B%20parlak%2C%20p%C3%BCr%C3%BCzs%C3%BCz,hem%20de%20t%C4%B1rnaklar%C4%B1n%20i%C5%9Flevlerini%20bozar"
+  },
+  {
+    "ID": "anomaly2",
+    "Name": "Beau Çizgileri",
+    "Description": "Tırnak plağında yatay oluklar bulunması. ",
+    "Image": "",
+    "Link": "https://my.clevelandclinic.org/health/symptoms/22906-beaus-lines"
+  },
+  {
+    "ID": "anomaly3",
+    "Name": "Çomak Parmak",
+    "Description": "Tırnak yatağında yumuşak dokunun kalınlaşması ve tırnağın aşağı doğru kıvrılması.",
+    "Image": "",
+    "Link": "https://www.memorial.com.tr/saglik-rehberi/comak-parmak#:~:text=%C4%B0lk%20kez%20Hipokrat%20taraf%C4%B1ndan%20ke%C5%9Ffedilerek,formda%20g%C3%B6r%C3%BClmemesi%20en%20%C3%B6nemli%20belirtisidir"
+  },
+  {
+    "ID": "anomaly4",
+    "Name": "Muehrcke Çizgileri",
+    "Description": "Tırnak yatağında çift beyaz enine çizgiler.",
+    "Image": "",
+    "Link": "https://my.clevelandclinic.org/health/symptoms/muehrcke-lines"
+  },
+  {
+    "ID": "anomaly5",
+    "Name": "Mees Çizgileri",
+    "Description": "Tırnak plağının tamamına uzanabilen beyaz yatay çizgilerdir.",
+    "Image": "",
+    "Link": "https://my.clevelandclinic.org/health/symptoms/22902-mees-lines"
+  },
+  {
+    "ID": "anomaly6",
+    "Name": "Yarı Yarıya Tırnak (Lindsay'in Tırnakları)",
+    "Description": "Tırnak ucu (distal bölge) pembe ile kahverengi arasında bir renge sahip olur ve bu kısım genellikle tırnağın %20 ila %60'ını kaplar.",
+    "Image": "",
+    "Link": "https://pubmed.ncbi.nlm.nih.gov/30064606/"
+  },
+  {
+    "ID": "anomaly7",
+    "Name": "Lökonişi",
+    "Description": "Tırnak plağında beyaz lekeler",
+    "Image": "",
+    "Link": "https://dermnetnz.org/topics/white-nail"
+  },
+  {
+    "ID": "anomaly8",
+    "Name": "Melanonişi",
+    "Description": "Tırnaklarda uzunlamasına kahverengi veya siyah çizgiler şeklinde görülen pigment birikimi",
+    "Image": "",
+    "Link": "https://dermnetnz.org/topics/melanonychia"
+  },
+  {
+    "ID": "anomaly9",
+    "Name": "Splinter Hemoraji",
+    "Description": "Tırnak yatağında görülen ince kıymık şeklinde kırmızı veya kahverengi çizgilerdir. Genellikle tırnak boyunca uzanan ince kan damarlarının hasar görmesi sonucu oluşur.",
+    "Image": "",
+    "Link": "https://dermnetnz.org/topics/splinter-haemorrhage"
+  },
+  {
+    "ID": "anomaly10",
+    "Name": "Tırnak Çukurlaşması",
+    "Description": "Tırnak yüzeyinde küçük çukur şeklinde oyuklar görülmesi durumudur.",
+    "Image": "",
+    "Link": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/7-fingernail-problems-not-to-ignore/art-20546860"
+  },
+  {
+    "ID": "anomaly11",
+    "Name": "Mavi Tırnak",
+    "Description": "Tırnağın yüzeyinde mavimsi bir renk tonu oluşmasıyla karakterize olup genellikle oksijen eksikliğiyle ilişkilidir.",
+    "Image": "",
+    "Link": "https://www.news-medical.net/health/Nail-Discoloration-Green-Blue-Black-White-or-Yellow-Why.aspx"
+  },
+  {
+    "ID": "anomaly12",
+    "Name": "Sarı Tırnak",
+    "Description": "Tırnaklar kalınlaşır, büyümesi yavaşlar, sarı renge döner ve genellikle pürüzlü, opak bir görünüme sahip olur.",
+    "Image": "",
+    "Link": "https://www.news-medical.net/health/Nail-Discoloration-Green-Blue-Black-White-or-Yellow-Why.aspx"
+  }
+]

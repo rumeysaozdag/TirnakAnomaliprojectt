@@ -1,0 +1,257 @@
+[
+    {
+        "ID": "ad1",
+        "AnomalyId": "anomaly2",
+        "DiseaseId": "disease1"
+    },
+    {
+        "ID": "ad2",
+        "AnomalyId": "anomaly2",
+        "DiseaseId": "disease2"
+    },
+    {
+        "ID": "ad3",
+        "AnomalyId": "anomaly2",
+        "DiseaseId": "disease3"
+    },
+    {
+        "ID": "ad4",
+        "AnomalyId": "anomaly2",
+        "DiseaseId": "disease4"
+    },
+    {
+        "ID": "ad5",
+        "AnomalyId": "anomaly2",
+        "DiseaseId": "disease5"
+    },
+    {
+        "ID": "ad6",
+        "AnomalyId": "anomaly2",
+        "DiseaseId": "disease6"
+    },
+    {
+        "ID": "ad7",
+        "AnomalyId": "anomaly2",
+        "DiseaseId": "disease7"
+    },
+    {
+        "ID": "ad8",
+        "AnomalyId": "anomaly3",
+        "DiseaseId": "disease8"
+    },
+    {
+        "ID": "ad9",
+        "AnomalyId": "anomaly3",
+        "DiseaseId": "disease9"
+    },
+    {
+        "ID": "ad10",
+        "AnomalyId": "anomaly3",
+        "DiseaseId": "disease10"
+    },
+    {
+        "ID": "ad11",
+        "AnomalyId": "anomaly4",
+        "DiseaseId": "disease11"
+    },
+    {
+        "ID": "ad12",
+        "AnomalyId": "anomaly4",
+        "DiseaseId": "disease12"
+    },
+    {
+        "ID": "ad13",
+        "AnomalyId": "anomaly4",
+        "DiseaseId": "disease13"
+    },
+    {
+        "ID": "ad14",
+        "AnomalyId": "anomaly5",
+        "DiseaseId": "disease14"
+    },
+    {
+        "ID": "ad15",
+        "AnomalyId": "anomaly5",
+        "DiseaseId": "disease15"
+    },
+    {
+        "ID": "ad16",
+        "AnomalyId": "anomaly6",
+        "DiseaseId": "disease16"
+    },
+     {
+        "ID": "ad17",
+        "AnomalyId": "anomaly6",
+        "DiseaseId": "disease17"
+    },
+     {
+        "ID": "ad18",
+        "AnomalyId": "anomaly6",
+        "DiseaseId": "disease18"
+    },
+     {
+        "ID": "ad19",
+        "AnomalyId": "anomaly6",
+        "DiseaseId": "disease19"
+    },
+     {
+        "ID": "ad20",
+        "AnomalyId": "anomaly6",
+        "DiseaseId": "disease20"
+    },
+    {
+        "ID": "ad21",
+        "AnomalyId": "anomaly7",
+        "DiseaseId": "disease21"
+    },
+     {
+        "ID": "ad22",
+        "AnomalyId": "anomaly7",
+        "DiseaseId": "disease12"
+    },
+     {
+        "ID": "ad23",
+        "AnomalyId": "anomaly7",
+        "DiseaseId": "disease14"
+    },
+    {
+        "ID": "ad24",
+        "AnomalyId": "anomaly8",
+        "DiseaseId": "disease22"
+    },
+     {
+        "ID": "ad25",
+        "AnomalyId": "anomaly8",
+        "DiseaseId": "disease23"
+    },
+     {
+        "ID": "ad26",
+        "AnomalyId": "anomaly8",
+        "DiseaseId": "disease24"
+    },
+     {
+        "ID": "ad27",
+        "AnomalyId": "anomaly8",
+        "DiseaseId": "disease25"
+    },
+    {
+        "ID": "ad28",
+        "AnomalyId": "anomaly9",
+        "DiseaseId": "disease26"
+    },
+     {
+        "ID": "ad29",
+        "AnomalyId": "anomaly9",
+        "DiseaseId": "disease27"
+    },
+     {
+        "ID": "ad30",
+        "AnomalyId": "anomaly9",
+        "DiseaseId": "disease28"
+    },
+    {
+        "ID": "ad31",
+        "AnomalyId": "anomaly10",
+        "DiseaseId": "disease29"
+    },
+      {
+        "ID": "ad32",
+        "AnomalyId": "anomaly10",
+        "DiseaseId": "disease30"
+    },
+      {
+        "ID": "ad33",
+        "AnomalyId": "anomaly10",
+        "DiseaseId": "disease31"
+    },
+      {
+        "ID": "ad34",
+        "AnomalyId": "anomaly10",
+        "DiseaseId": "disease32"
+    },
+      {
+        "ID": "ad35",
+        "AnomalyId": "anomaly10",
+        "DiseaseId": "disease33"
+    },
+      {
+        "ID": "ad36",
+        "AnomalyId": "anomaly10",
+        "DiseaseId": "disease34"
+    },
+      {
+        "ID": "ad37",
+        "AnomalyId": "anomaly10",
+        "DiseaseId": "disease35"
+    },
+      {
+        "ID": "ad38",
+        "AnomalyId": "anomaly10",
+        "DiseaseId": "disease36"
+    },
+      {
+        "ID": "ad39",
+        "AnomalyId": "anomaly10",
+        "DiseaseId": "disease43"
+    },
+    {
+        "ID": "ad40",
+        "AnomalyId": "anomaly11",
+        "DiseaseId": "disease37"
+    },
+    {
+        "ID": "ad41",
+        "AnomalyId": "anomaly11",
+        "DiseaseId": "disease9"
+    },
+    {
+        "ID": "ad42",
+        "AnomalyId": "anomaly11",
+        "DiseaseId": "disease21"
+    },
+    {
+        "ID": "ad43",
+        "AnomalyId": "anomaly11",
+        "DiseaseId": "disease12"
+    },
+     {
+        "ID": "ad44",
+        "AnomalyId": "anomaly12",
+        "DiseaseId": "disease37"
+    },
+    {
+        "ID": "ad45",
+        "AnomalyId": "anomaly12",
+        "DiseaseId": "disease38"
+    },
+    {
+        "ID": "ad46",
+        "AnomalyId": "anomaly12",
+        "DiseaseId": "disease39"
+    },
+    {
+        "ID": "ad47",
+        "AnomalyId": "anomaly12",
+        "DiseaseId": "disease40"
+    },
+    {
+        "ID": "ad48",
+        "AnomalyId": "anomaly12",
+        "DiseaseId": "disease41"
+    },
+    {
+        "ID": "ad49",
+        "AnomalyId": "anomaly12",
+        "DiseaseId": "disease42"
+    },
+    {
+        "ID": "ad50",
+        "AnomalyId": "anomaly12",
+        "DiseaseId": "disease33"
+    },
+    {
+        "ID": "ad51",
+        "AnomalyId": "anomaly12",
+        "DiseaseId": "disease44"
+    }
+]

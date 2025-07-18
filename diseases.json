@@ -1,0 +1,178 @@
+[
+  {
+    "ID": "disease1",
+    "Name": "Ciddi enfeksiyonlar"
+  },
+  {
+    "ID": "disease2",
+    "Name": "Beslenme Bozuklukları"
+  },
+  {
+    "ID": "disease3",
+    "Name": "Romatizmal Ateş"
+  },
+  {
+    "ID": "disease4",
+    "Name": "Sıtma"
+  },
+  {
+    "ID": "disease5",
+    "Name": "Pemfigus"
+  },
+  {
+    "ID": "disease6",
+    "Name": "Raynaud Hastalığı"
+  },
+  {
+    "ID": "disease7",
+    "Name": "Miyokard Enfarktüsü"
+  },
+  {
+    "ID": "disease8",
+    "Name": "Kronik akciğer hastalıkları (Akciğer Kanseri, Kistik Fibroz)"
+  },
+  {
+    "ID": "disease9",
+    "Name": "Kalp Hastalıkları"
+  },
+  {
+    "ID": "disease10",
+    "Name": "Gastrointestinal Hastalıklar (İnflamatuvar Bağırsak Hastalığı)"
+  },
+  {
+    "ID": "disease11",
+    "Name": "Hipoalbuminemi"
+  },
+  {
+    "ID": "disease12",
+    "Name": "Karaciğer Hastalıkları"
+  },
+  {
+    "ID": "disease13",
+    "Name": "Malnütrisyon"
+  },
+  {
+    "ID": "disease14",
+    "Name": "Ağır Metal Zehirlenmeleri (Ör. Arsenik, Talyum)"
+  },
+  {
+    "ID": "disease15",
+    "Name": "Kronik Böbrek Yetmezliği"
+  },
+  {
+    "ID": "disease16",
+    "Name": "Kronik Böbrek Hastalığı"
+  },
+  {
+    "ID": "disease17",
+    "Name": "Tüberküloz"
+  },
+  {
+    "ID": "disease18",
+    "Name": "Kawasaki"
+  },
+  {
+    "ID": "disease19",
+    "Name": "Behçet Hastalığı"
+  },
+  {
+    "ID": "disease20",
+    "Name": "Siroz"
+  },
+  {
+    "ID": "disease21",
+    "Name": "Böbrek Hastalıkları"
+  },
+  {
+    "ID": "disease22",
+    "Name": "Subungual Melanom"
+  },
+  {
+    "ID": "disease23",
+    "Name": "Yaşlanma"
+  },
+  {
+    "ID": "disease24",
+    "Name": "Genetik Özellikler "
+  },
+  {
+    "ID": "disease25",
+    "Name": "Pigmentli Nevüsler"
+  },
+  {
+    "ID": "disease26",
+    "Name": "Endokardit"
+  },
+  {
+    "ID": "disease27",
+    "Name": "Psoriasis"
+  },
+  {
+    "ID": "disease28",
+    "Name": "Sistemik Vaskülit"
+  },
+  {
+    "ID": "disease29",
+    "Name": "Sedef Hastalığı"
+  },
+  {
+    "ID": "disease30",
+    "Name": "Reiter Sendromu"
+  },
+  {
+    "ID": "disease31",
+    "Name": "Sarkoidoz"
+  },
+  {
+    "ID": "disease32",
+    "Name": "İnkontinansi Pigmenti"
+  },
+  {
+    "ID": "disease33",
+    "Name": "Lupus"
+  },
+  {
+    "ID": "disease34",
+    "Name": "Dermatomiyozit"
+  },
+  {
+    "ID": "disease35",
+    "Name": "Frengi"
+  },
+  {
+    "ID": "disease36",
+    "Name": "Pemfigus Vulgarist"
+  },
+  {
+    "ID": "disease37",
+    "Name": "Solunum Sistemi Hastalıkları"
+  },
+  {
+    "ID": "disease38",
+    "Name": "Lenfödem"
+  },
+  {
+    "ID": "disease39",
+    "Name": "Bağışıklık Sistemi Bozuklukları"
+  },
+  {
+    "ID": "disease40",
+    "Name": "Kronik Bronşit"
+  },
+  {
+    "ID": "disease41",
+    "Name": "Akciğer Enfeksiyonları"
+  },
+  {
+    "ID": "disease42",
+    "Name": "Romatoid Artrit"
+  },
+  {
+    "ID": "disease43",
+    "Name": "Psoriatik Artrit"
+  },
+  {
+    "ID": "disease44",
+    "Name": "Sinüzit"
+  }
+]
