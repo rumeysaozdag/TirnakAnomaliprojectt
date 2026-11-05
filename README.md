@@ -1,48 +1,68 @@
-# 🩺 Tırnak Anomali Tespiti
-### Derin Öğrenme Tabanlı Mobil Karar Destek Sistemi | 2024–2025
+# Tırnak Anomali Mobil Uygulaması
 
-ICBESS 2025 Uluslararası Konferansı'nda sunulan bu mezuniyet projesi, tırnaklardaki renk, şekil ve doku değişikliklerini analiz ederek 11 tırnak anomalisi için ön değerlendirme sunmayı amaçlayan yapay zekâ destekli bir mobil karar destek sistemidir. Uygulama bilgilendirme amacı taşır; sağlık uzmanı değerlendirmesi ve tanısının yerine geçmez.
+Tırnak Anomalisine Dayalı Hastalık Teşhis Sistemi, tırnak görüntülerini analiz için bir tahmin servisine ileten ve elde edilen sınıfı açıklayıcı içerikle eşleştiren React Native mobil uygulamasıdır. Bu depo; mobil istemciyi, anomali ve hastalık verilerini, Firestore yükleme betiklerini ve uygulama görsellerini içerir.
 
-## 🎯 Proje Hedefleri
+> Uygulama bir karar destek ve bilgilendirme aracıdır. Sonuçlar tıbbi tanı yerine geçmez; sağlıkla ilgili değerlendirme için bir sağlık uzmanına başvurulmalıdır.
 
-- Tırnak anomalilerinin görüntülerden otomatik olarak tespit edilmesi ve sınıflandırılması
-- Mobil uygulama üzerinden analiz sonuçlarının kullanıcıya sunulması
-- Tırnak sağlığı konusunda farkındalığın artırılması ve gerektiğinde sağlık uzmanına başvurunun desteklenmesi
+## Uygulama akışı
 
-## ⚙️ Sistem Mimarisi
+1. Kullanıcı ana ekrandan kamerayı açar ya da galeriden bir tırnak fotoğrafı seçer.
+2. Kamera ile çekilen görüntünün odak alanı kare olarak kırpılır.
+3. Görüntü, mobil istemcide tanımlı tahmin servisine `image` alanıyla gönderilir.
+4. Servisin `predictions` yanıtındaki ilk sınıf, Firestore'daki anomali kaydıyla eşleştirilir.
+5. Sonuç ekranında anomali açıklaması ve varsa ilişkili hastalıklar gösterilir. Anomali kataloğundan da ayrıntı ve bilgi bağlantıları açılabilir.
 
-1. **Veri kümesi ve etiketleme:** Özel veri kümesi CVAT aracıyla etiketlendi.
-2. **Model eğitimi:** YOLOv8s ve CNN mimarileri PyTorch ile eğitildi.
-3. **Backend ve API:** Python ve Flask tabanlı API ile model çıkarımı sağlandı.
-4. **Mobil uygulama:** React Native ve Expo ile geliştirildi; Firebase entegrasyonu kullanıldı.
+## Ekran görüntüleri
 
-## 🧰 Kullanılan Teknolojiler
-
-| Katman | Teknolojiler |
-| --- | --- |
-| Derin öğrenme ve görüntü işleme | YOLOv8s, CNN, PyTorch, OpenCV |
-| Mobil uygulama | React Native, Expo |
-| Bulut ve veritabanı | Firebase |
-| Backend ve API | Python, Flask |
-| Veri etiketleme | CVAT |
-
-## 📊 Model Performansı
-
-- **Genel doğruluk:** %92–93
-- **Ortalama F1 skoru:** 0,87
-- **Sınıf sayısı:** 11
-- Örnek sınıflar: Clubbing (çomak tırnak), Melanonychia (melanonişi), Leukonychia (lökonişi) ve Yellow Nail Syndrome (sarı tırnak sendromu)
-
-## 📱 Uygulama Görselleri
-
-| Ana sayfa | Tırnak anomalileri | Analiz sonucu |
+| Ana ekran | Anomali kataloğu | Analiz sonucu |
 | --- | --- | --- |
-| ![Uygulamanın ana sayfası](images/ana_sayfa.jpg) | ![Tırnak anomalileri ekranı](images/t%C4%B1rnak_anomalileri.jpg) | ![Analiz sonucu ekranı](images/analiz_sonucu.jpg) |
+| ![Tırnak Anomali ana ekranı](images/ana_sayfa.jpg) | ![Anomali kataloğu](images/t%C4%B1rnak_anomalileri.jpg) | ![Analiz sonucu ekranı](images/analiz_sonucu.jpg) |
 
-## 🔒 Akademik Erişim Notu
+## Proje içeriği
 
-Kaynak kodu ve veri kümesine erişim, devam eden akademik yayın ve hakem değerlendirme süreçleri nedeniyle kısıtlıdır.
+- **Mobil istemci:** React Native ve Expo; ekran geçişleri React Navigation ile yapılır.
+- **Kamera ve görsel seçimi:** `expo-camera`, `expo-image-picker` ve `expo-image-manipulator`.
+- **Tahmin isteği:** Axios ile görsel yükleme; arayüz `predictions` içindeki `class_name` alanını kullanır.
+- **Anomali ve hastalık bilgileri:** Firebase Firestore üzerinden `Anomalies`, `Diseases` ve `anomalyDiseases` koleksiyonlarından okunur.
+- **JSON veri dosyaları:** `anomalies.json`, `diseases.json` ve `anomalyDiseases.json` Firestore'a aktarılabilecek kayıtları içerir. Mevcut dosyalarda 12 anomali kataloğu kaydı (sağlıklı tırnak örneği dahil), 44 hastalık kaydı ve 51 ilişki kaydı bulunur.
+- **Yükleme betikleri:** `upload.js`, `upload_diseases.js` ve `upload_ad.js`, JSON verilerini Firestore'a aktarmak için kullanılır. Bu betikler Firebase Admin servis hesabı kimlik bilgisi gerektirir.
 
-## 📜 Lisans ve Telif
+## Kullanılan başlıca teknolojiler
 
-© 2024–2025 Proje Ekibi. Tüm hakları saklıdır.
+| Alan | Teknolojiler |
+| --- | --- |
+| Mobil | React Native, Expo |
+| Gezinme | React Navigation |
+| Kamera ve görsel işleme | Expo Camera, Image Picker, Image Manipulator |
+| Veri ve bulut | Firebase Firestore |
+| API iletişimi | Axios |
+| Animasyon | Lottie |
+
+## Yerel çalıştırma
+
+Node.js ve npm kurulu olmalıdır.
+
+```bash
+npm install
+npm start
+```
+
+Expo CLI açıldıktan sonra uygulamayı kullanılabilir bir emülatör veya cihazda başlatın. Android yerel çalıştırma için `npm run android` komutu da tanımlıdır.
+
+Görsel tahmini için erişilebilir bir `/predict` servisi ve uygulamayla aynı Firebase projesine ait Firestore yapılandırması gerekir. API adresi istemci kodunda tanımlıdır; farklı bir servis kullanırken `screens/HomeScreen.js` ve `screens/CameraScreen.js` içindeki adresi güncelleyin. Yönetici yükleme betiklerinin gerektirdiği servis hesabı anahtarını depoya eklemeyin.
+
+## Dizin yapısı
+
+```text
+screens/                 Mobil uygulama ekranları
+assets/                  Logo, ikon ve yükleme animasyonu
+images/                  README'de kullanılan uygulama ekran görüntüleri
+anomalies.json           Anomali kataloğu verileri
+diseases.json            Hastalık verileri
+anomalyDiseases.json     Anomali-hastalık ilişkileri
+upload*.js               Firestore veri yükleme betikleri
+```
+
+## Kapsam
+
+Bu depoda mobil uygulama ve veri aktarım yardımcıları yer alır. Tahmin servisi/model kaynak kodu bu proje klasöründe bulunmamaktadır. Model başarımı veya eğitim veri kümesi hakkında bu depoda doğrulanabilir bir rapor yer almadığı için README'de performans ölçütü verilmemiştir.
