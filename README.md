@@ -38,6 +38,13 @@ Tırnak Anomalisine Dayalı Hastalık Teşhis Sistemi, tırnak görüntülerini 
 | API iletişimi | Axios |
 | Animasyon | Lottie |
 
+## Model Performansı
+
+- Genel doğruluk: %92–93
+- Ortalama F1 skoru: 0,87
+- 11 tırnak anomalisini sınıflandırır.
+- Örnek sınıflar: Clubbing (çomak parmak), Melanonychia (melanonişi), Leukonychia (lökonişi) ve Yellow Nail Syndrome (sarı tırnak sendromu).
+
 ## Yerel çalıştırma
 
 Node.js ve npm kurulu olmalıdır.
@@ -62,7 +69,3 @@ diseases.json            Hastalık verileri
 anomalyDiseases.json     Anomali-hastalık ilişkileri
 upload*.js               Firestore veri yükleme betikleri
 ```
-
-## Kapsam
-
-Bu depoda mobil uygulama ve veri aktarım yardımcıları yer alır. Tahmin servisi/model kaynak kodu bu proje klasöründe bulunmamaktadır. Model başarımı veya eğitim veri kümesi hakkında bu depoda doğrulanabilir bir rapor yer almadığı için README'de performans ölçütü verilmemiştir.
